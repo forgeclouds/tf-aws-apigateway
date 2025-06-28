@@ -59,14 +59,6 @@ module "flexible_apigw" {
 |------|---------|
 | <a name="provider_aws"></a> [aws](#provider\_aws) | 5.98.0 |
 
-## Modules
-
-| Name | Source | Version |
-|------|--------|---------|
-| <a name="module_apigw_loggroup"></a> [apigw\_loggroup](#module\_apigw\_loggroup) | git@github.com:forgeclouds/tf-aws-apigateway.git//cloudwatchlogs | v1.0.0 |
-| <a name="module_domain_validation"></a> [domain\_validation](#module\_domain\_validation) | git@github.com:forgeclouds/tf-aws-apigateway.git//route53//modules//domain_validation | v1.0.0 |
-| <a name="module_route53"></a> [route53](#module\_route53) | git@github.com:forgeclouds/tf-aws-apigateway.git//route53 | v1.0.0 |
-
 ## Resources
 
 | Name | Type |
